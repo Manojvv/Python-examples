@@ -1,0 +1,51 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "agentpublicCount": {
+      "value": 1
+    },
+    "agentpublicEndpointDNSNamePrefix": {
+      "value": "sunbird-test-1"
+    },
+    "agentpublicSubnet": {
+      "value": "19.0.0.0/16"
+    },
+    "internalLBprivateIPAddress": {
+      "value": "19.0.0.100"
+    },
+    "agentpublicVMSize": {
+      "value": "Standard_DS1_V2"
+    },
+    "firstConsecutiveStaticIP": {
+      "value": "172.19.0.5"
+    },
+    "linuxAdminUsername": {
+      "value": "acs
+    },
+    "location": {
+      "value": "centralindia"
+    },
+    "masterEndpointDNSNamePrefix": {
+      "value": "sunbird-test-1a"
+    },
+    "masterSubnet": {
+      "value": "172.19.0.0/24"
+    },
+    "masterVMSize": {
+      "value": "Standard_DS1_V2"
+    },
+    "masterCount": {
+      "value": 1
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC32exN2hIcQtKCbhJOViC3PhdKZf0nZ47oWGw6SRnjfRifNbcKW5MPi2U2mmfGv8o0n+1YjuctjofWIIiP9WoQdw/y+vovOlFLObzJCg2AIb7BmBb5JY0XzHYESm2HTELg0tHiwU/J73OU0O+XSTKWrOT+kx70FCwxE7paeuCJCtFlXHCw1G34ud5z7PSUkya/+f5chLV91jiZx8F1TwOa4IvEOYvC9K3APPr3WwozjzXSujflEyTo89/AjsEr6SL09aHggZ3Xx5Fq7GpWJsR+KLGbafFf+jGc6BprBxClnBIBIviCYYU+17bbEqJopF9Ef9OjqCuVdrQkuyKVE1Z5ZdN2jUUo88zKSm0qhcpMuPdHwLCWyPzC0HncsDzHm2w2CHVhBZaeslAStKdCX+n3pS9P+hU5+CkiMGao470ulG19kHDCJ23XbBMuIIADDm7kYokgodAndoGZMrIt+w8TN5eocx68/X5/yTCxbs1Kt/YTwoEn9aJgUqM0nU30CuIk7d9v5IvS9+05R2kY+FcIESt7sMXJU3X+REJo8x3enzljit9JQRtiaYrGIsSmgI0suIrcjhq7AM8uII94pznz1ckT24cTTZvoUreAe0GwsNjK8ng/1lZ1xtudpPMTYWxcy7qUNXEljipRgnylnkdhZqVU42PAPOHlkP3CeP7rMQ== acs-key"
+    },
+    "targetEnvironment": {
+      "value": "AzurePublicCloud"
+    },
+    "nameSuffix":{
+     "value": "S18950373" 
+    }
+  }
+}
